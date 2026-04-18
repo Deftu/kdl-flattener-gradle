@@ -1,6 +1,7 @@
 # KDL Flattener for Gradle
 
 <sup>Commissioned by asoji</sup>
+
 <sub>Inspired by https://github.com/FallingColors/PKPCPBP</sub>
 
 Simple Gradle plugin which automatically converts `*.flatten.kdl` resource files into JSON files at build time.
