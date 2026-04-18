@@ -28,7 +28,7 @@ Add the plugin to your `build.gradle.kts` (or `build.gradle`):
 
 ```kotlin
 plugins {
-    id("dev.deftu.kdl-flattener") version("<>VERSION>") // Replace with actual version
+    id("dev.deftu.gradle.kdl-flattener") version("<VERSION>") // Replace with actual version
 }
 ```
 
