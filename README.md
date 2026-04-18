@@ -19,7 +19,6 @@ Particularly useful for things like language or registry files.
 * **Zero Configuration:** Just apply the plugin. It automatically hooks into Gradle's `processResources` tasks.
 * **Seamless Integration:** Any file ending in `.flatten.kdl` in your resources directories will be processed and renamed to `.json` in the final JAR.
 * **Fast & Native:** Implemented directly as a `FilterReader`, leveraging Gradle's built-in file copying and caching mechanisms without creating messy intermediate build directories.
-* **Powered by KDL:** Uses the official `kdl-org/kdl4j` parser, fully supporting KDL v2 syntax.
 
 ---
 
@@ -29,7 +28,7 @@ Add the plugin to your `build.gradle.kts` (or `build.gradle`):
 
 ```kotlin
 plugins {
-    id("dev.deftu.kdlflattener") version "1.0.0" // Replace with actual version
+    id("dev.deftu.kdl-flattener") version("<>VERSION>") // Replace with actual version
 }
 ```
 
